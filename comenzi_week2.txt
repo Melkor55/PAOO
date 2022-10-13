@@ -1,0 +1,8 @@
+- creez un proiect
+- creez un folder de build pentru fisierele generate de cmake -> /build
+- creez un folder pentru fisierele sursa a programului -> /src
+
+- creez fisierele sursa pentru programul c++ -> ./src/main.cpp
+- creez CMakeLists.txt pentru a modela comanda 'cmake' dupa cerinte -> ./CmakeLists.txt
+
+- rulez *** cmake -S . -B ./build ***
