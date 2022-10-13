@@ -1,0 +1,3 @@
+D:/UPT-IV/PAOO/build/CMakeFiles/hello_there.dir
+D:/UPT-IV/PAOO/build/CMakeFiles/ALL_BUILD.dir
+D:/UPT-IV/PAOO/build/CMakeFiles/ZERO_CHECK.dir

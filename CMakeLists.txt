@@ -1,7 +1,7 @@
 # CMake version
 cmake_minimum_required(VERSION 3.0)
 
-set(myproject "hello there")
+set(myproject "hello_there")
 # Project name
 project(${myproject})
 
@@ -18,4 +18,4 @@ endif()
 
 # Define the executable
 add_executable(${PROJECT_NAME} src/main.cpp)      
-include_directories(build)
+include_directories(src)
