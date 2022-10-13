@@ -1,6 +1,7 @@
 - creez un proiect
-- creez un folder de build pentru fisierele generate de cmake -> /build
-- creez un folder pentru fisierele sursa a programului -> /src
+- creez un folder de build pentru fisierele generate de cmake -> ./build
+- creez un folder pentru fisierele sursa a programului -> ./src
+- creez un folder pentru materialele de laborator -> ./utils
 
 - creez fisierele sursa pentru programul c++ -> ./src/main.cpp
 - creez CMakeLists.txt pentru a modela comanda 'cmake' dupa cerinte -> ./CmakeLists.txt
