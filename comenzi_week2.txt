@@ -6,6 +6,8 @@
 - creez fisierele sursa pentru programul c++ -> ./src/main.cpp
 - creez CMakeLists.txt pentru a modela comanda 'cmake' dupa cerinte -> ./CmakeLists.txt
 
-- rulez *** cmake -S . -B ./build *** pentru a rula configuratia din CMakeLists.txt
+- rulez *** cmake -S . -B ./build *** pentru a rula configuratia din CMakeLists.txt 
+                    |> '-S' path-ul catre locatia lui CMakeLists.txt
+                    |> '-B' path-ul catre locatia unde se va instala configuratia din CMakeLists.txt
 - rulez *** cmake --build ./build *** pentru a face build la proiect
 - rulez *** ./build/debug/hello_there *** pentru a rula fisierul .cpp in format executabil
