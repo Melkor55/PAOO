@@ -1,4 +1,5 @@
 #include "Company.hpp"
+#include "Employee.h"
 
 #include <iostream>
 
@@ -21,6 +22,9 @@ int main()
     cout << "Profit: " << convert_RON_to_MIL_of_EUR(company.annualProfit) << currency   ;
 
     //cout << "hello" ;
+
+    Employee employee1 = *new Employee(10);
+    Employee employee2 = employee1;
 
     return 0;
 }

@@ -17,5 +17,5 @@ else()
 endif()    
 
 # Define the executable
-add_executable(${PROJECT_NAME} ./src/Company.cpp ./src/main.cpp src/Uncopyable.h)
+add_executable(${PROJECT_NAME} ./src/Company.cpp ./src/main.cpp src/Uncopyable.h src/Employee.cpp src/Employee.h src/FounderEmployee.cpp src/FounderEmployee.h)
 include_directories(./src)

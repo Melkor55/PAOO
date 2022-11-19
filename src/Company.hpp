@@ -17,6 +17,8 @@ class Company : private Uncopyable
         string location;
         int numberOfEmployees;
         int annualProfit;
+        int minNumberOfEmployees;
+        int minNumberOfEmployeesInADepartament;
 
     private:
         int averageSalary;
@@ -41,6 +43,7 @@ class Company : private Uncopyable
             averageSalary = _averageSalary;
             income = _income;
             expenses = _expenses;
+            numberOfEmployees = minNumberOfEmployeesInADepartament = 25;
         }
 
     public:

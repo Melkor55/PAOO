@@ -63,6 +63,20 @@ build CMakeFiles/hello_there.dir/src/main.cpp.obj: CXX_COMPILER__hello_there_Deb
   OBJECT_DIR = CMakeFiles\hello_there.dir
   OBJECT_FILE_DIR = CMakeFiles\hello_there.dir\src
 
+build CMakeFiles/hello_there.dir/src/Employee.cpp.obj: CXX_COMPILER__hello_there_Debug C$:/Users/Melkor/Documents/Projects/VisualStudioCode/PAOO/src/Employee.cpp || cmake_object_order_depends_target_hello_there
+  DEP_FILE = CMakeFiles\hello_there.dir\src\Employee.cpp.obj.d
+  FLAGS = -g -std=c++14
+  INCLUDES = -IC:/Users/Melkor/Documents/Projects/VisualStudioCode/PAOO/./src
+  OBJECT_DIR = CMakeFiles\hello_there.dir
+  OBJECT_FILE_DIR = CMakeFiles\hello_there.dir\src
+
+build CMakeFiles/hello_there.dir/src/FounderEmployee.cpp.obj: CXX_COMPILER__hello_there_Debug C$:/Users/Melkor/Documents/Projects/VisualStudioCode/PAOO/src/FounderEmployee.cpp || cmake_object_order_depends_target_hello_there
+  DEP_FILE = CMakeFiles\hello_there.dir\src\FounderEmployee.cpp.obj.d
+  FLAGS = -g -std=c++14
+  INCLUDES = -IC:/Users/Melkor/Documents/Projects/VisualStudioCode/PAOO/./src
+  OBJECT_DIR = CMakeFiles\hello_there.dir
+  OBJECT_FILE_DIR = CMakeFiles\hello_there.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hello_there
@@ -71,7 +85,7 @@ build CMakeFiles/hello_there.dir/src/main.cpp.obj: CXX_COMPILER__hello_there_Deb
 #############################################
 # Link the executable hello_there.exe
 
-build hello_there.exe: CXX_EXECUTABLE_LINKER__hello_there_Debug CMakeFiles/hello_there.dir/src/Company.cpp.obj CMakeFiles/hello_there.dir/src/main.cpp.obj
+build hello_there.exe: CXX_EXECUTABLE_LINKER__hello_there_Debug CMakeFiles/hello_there.dir/src/Company.cpp.obj CMakeFiles/hello_there.dir/src/main.cpp.obj CMakeFiles/hello_there.dir/src/Employee.cpp.obj CMakeFiles/hello_there.dir/src/FounderEmployee.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\hello_there.dir

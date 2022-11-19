@@ -1,7 +1,4 @@
 # ninja log v5
-6	410	6888569605766570	CMakeFiles/hello_there.dir/src/main.cpp.obj	ddb651ff1810db47
-2	395	6888569605607000	CMakeFiles/hello_there.dir/src/Company.cpp.obj	7e78d9894e151f5f
-411	510	6888569606729070	hello_there.exe	24ab5af77eeded21
-4	369	6888571780788532	CMakeFiles/hello_there.dir/src/Company.cpp.obj	7e78d9894e151f5f
 8	391	6888571781003007	CMakeFiles/hello_there.dir/src/main.cpp.obj	ddb651ff1810db47
+4	369	6888571780788532	CMakeFiles/hello_there.dir/src/Company.cpp.obj	7e78d9894e151f5f
 391	489	6888571781949368	hello_there.exe	24ab5af77eeded21
